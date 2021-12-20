@@ -16,5 +16,7 @@ def estrella(n):
         turtle.forward(200)
     turtle.done()
 
-
+if __name__=='__main__':
+    n=int(input("Determina las puntas de la estrella:   "))
+    estrella(n)          
 
